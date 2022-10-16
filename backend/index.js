@@ -55,7 +55,7 @@ io.on('connection', socket => {
           return;
         }
         if (res?.status === 'start'){
-          socket.emit(`site:${msg.id}`, {status: 102, message: 'processing'});
+          socket.emit(`site:${msg.id}`, {status: 102, message: 'Pruefung'});
           return;
         }
         console.log(`socket: ${socket.id} task: ${msg.id} - unknown res: ${res}`);
