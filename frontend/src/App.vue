@@ -13,10 +13,11 @@
     </header>
   </div>
   <footer>
+    Bereitgestellt von Sartoris Consulting GmbH & Co. KG |
+    <a href="https://www.dsb-datenschutz.de/impressum.html" target="_blank" rel="noreferrer">{{ $t('footer.imprint') }}</a> |
+    <a href="https://www.dsb-datenschutz.de/datenschutzerklaerung.html" target="_blank" rel="noreferrer">{{ $t('footer.privacyNotice') }}</a> | 
     {{ $t('footer.madeWithLove', {icon: '&#9829;'}) }}
-    <a href="https://54gradsoftware.de" target="_blank" rel="noreferrer">54 Grad Software</a> -
-    <a href="https://54gradsoftware.de/impressum" target="_blank" rel="noreferrer">{{ $t('footer.imprint') }}</a> -
-    <a href="https://54gradsoftware.de/datenschutz" target="_blank" rel="noreferrer">{{ $t('footer.privacyNotice') }}</a>
+    <a href="https://54gradsoftware.de" target="_blank" rel="noreferrer">54 Grad Software</a>
   </footer>
 </template>
 
