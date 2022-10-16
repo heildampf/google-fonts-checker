@@ -5,8 +5,7 @@
     <header role="navigation">
       <div>Google Fonts Checker</div>
       <div class="right">
-        <SwitchLanguage/>
-        <a href="https://github.com/54GradSoftware/google-fonts-checker/" target="_blank" rel="noreferrer" class="github" :aria-label="$t('header.linkToGithubAlt')">
+          <a href="https://github.com/54GradSoftware/google-fonts-checker/" target="_blank" rel="noreferrer" class="github" :aria-label="$t('header.linkToGithubAlt')">
           <img src="./assets/GitHub-Mark-Light-64px.png" alt="Logo GitHub">
         </a>
       </div>
