@@ -12,7 +12,7 @@
     </header>
   </div>
   <footer>
-    Bereitgestellt von Sartoris Consulting GmbH & Co. KG |
+    {{ $t('footer.poweredby', {icon: '&#9829;'}) }} |
     <a href="https://www.dsb-datenschutz.de/impressum.html" target="_blank" rel="noreferrer">{{ $t('footer.imprint') }}</a> |
     <a href="https://www.dsb-datenschutz.de/datenschutzerklaerung.html" target="_blank" rel="noreferrer">{{ $t('footer.privacyNotice') }}</a> | 
     {{ $t('footer.madeWithLove', {icon: '&#9829;'}) }}
