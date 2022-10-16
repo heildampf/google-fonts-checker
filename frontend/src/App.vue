@@ -5,18 +5,18 @@
     <header role="navigation">
       <div>Google Fonts Checker</div>
       <div class="right">
-          <a href="https://github.com/54GradSoftware/google-fonts-checker/" target="_blank" rel="noreferrer" class="github" :aria-label="$t('header.linkToGithubAlt')">
+        <SwitchLanguage/>
+        <a href="https://github.com/54GradSoftware/google-fonts-checker/" target="_blank" rel="noreferrer" class="github" :aria-label="$t('header.linkToGithubAlt')">
           <img src="./assets/GitHub-Mark-Light-64px.png" alt="Logo GitHub">
         </a>
       </div>
     </header>
   </div>
   <footer>
-    {{ $t('footer.poweredby', {icon: '&#9829;'}) }} |
-    <a href="https://www.dsb-datenschutz.de/impressum.html" target="_blank" rel="noreferrer">{{ $t('footer.imprint') }}</a> |
-    <a href="https://www.dsb-datenschutz.de/datenschutzerklaerung.html" target="_blank" rel="noreferrer">{{ $t('footer.privacyNotice') }}</a> | 
     {{ $t('footer.madeWithLove', {icon: '&#9829;'}) }}
-    <a href="https://54gradsoftware.de" target="_blank" rel="noreferrer">54 Grad Software</a>
+    <a href="https://54gradsoftware.de" target="_blank" rel="noreferrer">54 Grad Software</a> -
+    <a href="https://54gradsoftware.de/impressum" target="_blank" rel="noreferrer">{{ $t('footer.imprint') }}</a> -
+    <a href="https://54gradsoftware.de/datenschutz" target="_blank" rel="noreferrer">{{ $t('footer.privacyNotice') }}</a>
   </footer>
 </template>
 
