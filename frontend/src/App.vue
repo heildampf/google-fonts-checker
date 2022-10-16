@@ -13,7 +13,7 @@
     </header>
   </div>
   <footer>
-    {{ $t('footer.madeWithLove', {icon: '&#9829;'}) }} |
+    {{ $t('footer.madeWithLove', {icon: '&#9874;'}) }} |
     <a href="https://www.dsb-datenschutz.de/impressum.html" target="_blank" rel="noreferrer">{{ $t('footer.imprint') }}</a> |
     <a href="https://www.dsb-datenschutz.de/datenschutzerklaerung.html" target="_blank" rel="noreferrer">{{ $t('footer.privacyNotice') }}</a> |
     {{ $t('footer.madeWithLove', {icon: '&#9829;'}) }}
