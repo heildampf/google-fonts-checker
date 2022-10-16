@@ -186,6 +186,7 @@ export const messages = {
       madeWithLove: 'Made with {icon} by',
       imprint: 'Impressum',
       privacyNotice: 'Datenschutz',
+      poweredby: 'Bereitgestellt von der Sartoris Consulting GmbH & Co. KG',
     },
     header: {
       linkToGithubAlt: 'Link zum github.com Repository',
