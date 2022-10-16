@@ -101,14 +101,14 @@ export const messages = {
   'de-DE': {
     localeName: 'de',
     search: {
-      headline: 'Überprüfe deine Seite nach Google Fonts',
-      whyNotToUse: 'Warum keine Google Fonts verwenden?',
+      headline: 'Sind auf Ihrer Seite Google Fonts extern eingebunden?',
+      whyNotToUse: 'Warum dürfen Google Fonts (aktuell) nur lokal eingebunden werden?',
       placeholder: 'https://deine.domain',
       label: 'URL der Website',
     },
     result: {
       headline: 'Ergebnis:',
-      noticeTrue: 'Google Fonts wurden erkannt!',
+      noticeTrue: 'Achtung! Google Fonts werden auf Ihrer Webseite extern eingebunden!',
       noticeFalse: 'Wir haben keine externe Nutzung von Google Fonts erkannt :D',
       list: {
         headline: 'Gefunden in den folgenden Anfragen:',
