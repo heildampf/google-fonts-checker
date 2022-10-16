@@ -63,3 +63,8 @@ services:
       - backend
     depends_on:
       - backend
+
+networks:
+    default:
+        external:
+            name: proxy_network
