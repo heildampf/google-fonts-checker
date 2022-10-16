@@ -21,7 +21,7 @@
   <div class="box">
     <p>
       {{ $t('whyNotToUse.box3.section1') }}
-      <a href="https://webbkoll.dataskydd.net/en" target="_blank" rel="noreferrer">Webbkoll</a>
+      <a href="https://webbkoll.dsbdatenschutz.de/de/" target="_blank" rel="noreferrer">Webbkoll</a>
     </p>
   </div>
 </template>
